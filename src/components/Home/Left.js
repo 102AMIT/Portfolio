@@ -9,7 +9,7 @@ import CV from "../../assets/Amit_Kumar Thakur.pdf";
 import { profileImage } from "../../assets";
 const Left = () => {
   const [text] = useTypewriter({
-    words: ["Full Stack Developer", "Web Developer", "UI Designer"],
+    words: ["Full Stack Developer", "Web Developer", "UI Developer" , "MERN Stack Developer"],
     loop: true,
     typeSpeed: 50,
     deleteSpeed: 38,

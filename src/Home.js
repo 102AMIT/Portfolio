@@ -5,6 +5,7 @@ import { MdWork, MdOutlineClose } from "react-icons/md";
 import { BsTelephonePlusFill } from "react-icons/bs";
 import Left from "./components/Home/Left";
 import About from "./components/About/About";
+import Resume from "./components/Resume/Resume";
 
 const Home = () => {
   return (
@@ -64,7 +65,8 @@ const Home = () => {
       {/* right part start */}
       <div className="w-8/12 h-[95%] bg-bodyColor ">
         <div className="w-full h-[96%] overflow-y-scroll scrollbar-thin scrollbar-thumb-[#646464]">
-          <About />
+          {/* <About /> */}
+          <Resume />
         </div>
         </div>
       </div>
