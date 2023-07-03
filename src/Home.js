@@ -61,9 +61,11 @@ const Home = () => {
       <div className="w-[94%] h-full bg-transparent flex items-center">
         {/* left part start */}
         <Left />
-        {/* right part start */}
-        <div className="w-8/12 h-[95%] bg-bodyColor ">
-            <About />
+      {/* right part start */}
+      <div className="w-8/12 h-[95%] bg-bodyColor ">
+        <div className="w-full h-[96%] overflow-y-scroll scrollbar-thin scrollbar-thumb-[#646464]">
+          <About />
+        </div>
         </div>
       </div>
     </div>

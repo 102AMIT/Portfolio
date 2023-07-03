@@ -3,6 +3,8 @@ import { useTypewriter, Cursor } from "react-simple-typewriter";
 import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 import { FiMail, FiSend } from "react-icons/fi";
 import { TiWeatherStormy } from 'react-icons/ti';
+import { SiLeetcode } from 'react-icons/si';
+
 import CV from "../../assets/Amit_Kumar Thakur.pdf";
 import { profileImage } from "../../assets";
 const Left = () => {
@@ -14,7 +16,7 @@ const Left = () => {
     delaySpeed: 1500,
   });
   return (
-    <div className="w-5/12 h-full bg-bodyColor rounded-2xl">
+    <div className="w-5/12 h-full bg-bodyColor rounded-2xl shadow-testShadow z-10">
       <div className="w-full h-3/5">
         <img
           className="w-full h-full object-cover rounded-2xl"
@@ -44,6 +46,9 @@ const Left = () => {
             </span>
             <span className="hover:text-designColor duration-300 cursor-pointer text-xl">
               <FiMail />
+            </span>
+            <span className="hover:text-designColor duration-300 cursor-pointer text-xl">
+              <SiLeetcode />
             </span>
           </div>
         </div>
