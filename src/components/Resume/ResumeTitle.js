@@ -1,5 +1,4 @@
 import React from 'react'
-import { GiGraduateCap } from "react-icons/gi";
 
 const ResumeTitle = ({title , icon}) => {
   return (

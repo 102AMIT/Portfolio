@@ -4,6 +4,7 @@ import RoundFour from "./components/roundDesigns/RoundFour";
 import RoundOne from "./components/roundDesigns/RoundOne";
 import RoundThree from "./components/roundDesigns/RoundThree";
 import RoundTwo from "./components/roundDesigns/RoundTwo";
+import "./index.css"
 
 
 function App() {

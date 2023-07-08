@@ -55,16 +55,16 @@ const Left = () => {
         {/* buttons */}
         <div className="flex h-14">
           <a
-            className="w-full h-full flex justify-center borderRight items-center gap-2 border-t-[1px] border-t-zinc-800 text-sm tracking-wide uppercase hover:text-designColor duration-300s"
+            className="w-1/2 border-r-[0.5px]  border-r-zinc-800 gap-2  border-t-[1px] border-t-zinc-800 text-sm tracking-wide uppercase hover:text-designColor duration-300s"
             href={CV}
             target="_blank"
             rel="noreferrer"
           >
-            <button className="w-1/2 h-full flex justify-center borderRight items-center gap-2 ">
+            <button className="w-full h-full flex justify-center border-r-[1px] border-r-zinc-800 items-center gap-2 ">
               Download CV <TiWeatherStormy />
             </button>
           </a>
-          <button className="w-1/2 h-full flex justify-center items-center gap-2 ">
+          <button className="w-1/2 h-full flex justify-center items-center gap-2 border-t-[1px] border-t-zinc-800">
             Contact me <FiSend />
           </button>
         </div>

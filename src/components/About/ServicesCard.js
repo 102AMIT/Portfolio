@@ -2,7 +2,7 @@ import React from 'react'
 
 const ServicesCard = ({icons, title , subTitle}) => {
   return (
-    <div className='py-8 px-6 flex flex-col items-center gap2 borderRight borderBottom'>
+    <div className='py-6 px-6 flex flex-col items-center gap4 border-b-[1px] border-b-zinc-800 '>
         <span className='text-4xl text-designColor mb-2'>
             {icons}
         </span>

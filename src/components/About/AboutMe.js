@@ -1,9 +1,10 @@
 import React from "react";
+import "../../index.css";
 
 const AboutMe = () => {
   return (
-    <div className="flex pb-6">
-      <div className="w-1/2 text-zinc-400 px-6 borderRight flex-col p-6 ">
+    <div className="flex pb-6 border-b-[1px] border-b-zinc-800">
+      <div className="w-1/2 text-zinc-400 px-6 border-r-[1px] border-r-zinc-800 flex-col p-6 ">
         <h2 className="font-bold mb-1 text-lg text-gray-200">
           Hello! I'm Amit Kumar Thakur
         </h2>
@@ -17,28 +18,28 @@ const AboutMe = () => {
       </div>
       <div className="w-1/2 p-6">
         <ul>
-          <li className="aboutRightLi">
-            <span className="aboutRightLiSpan">GENDER:</span>
+          <li className=" text-zinc-400 text-base font-normal flex justify-between items-center border-b-[1px] border-gray-800 py-2">
+            <span className=" bg-designColor text-black uppercase px-4 py-[1px] rounded-md">GENDER:</span>
             <span>Male</span>
           </li>
-          <li className="aboutRightLi">
-            <span className="aboutRightLiSpan">RESIDENCE:</span>
+          <li className=" text-zinc-400 text-base font-normal flex justify-between items-center border-b-[1px] border-gray-800 py-2">
+            <span className=" bg-designColor text-black uppercase px-4 py-[1px] rounded-md">RESIDENCE:</span>
             <span>INDIA</span>
           </li>
-          <li className="aboutRightLi">
-            <span className="aboutRightLiSpan">ADDRESS:</span>
+          <li className=" text-zinc-400 text-base font-normal flex justify-between items-center border-b-[1px] border-gray-800 py-2">
+            <span className=" bg-designColor text-black uppercase px-4 py-[1px] rounded-md">ADDRESS:</span>
             <span>Kolkata, India</span>
           </li>
-          <li className="aboutRightLi">
-            <span className="aboutRightLiSpan">FREELANCE:</span>
+          <li className=" text-zinc-400 text-base font-normal flex justify-between items-center border-b-[1px] border-gray-800 py-2">
+            <span className=" bg-designColor text-black uppercase px-4 py-[1px] rounded-md">FREELANCE:</span>
             <span>Available</span>
           </li>
-          <li className="aboutRightLi">
-            <span className="aboutRightLiSpan">OnSite:</span>
+          <li className=" text-zinc-400 text-base font-normal flex justify-between items-center border-b-[1px] border-gray-800 py-2">
+            <span className=" bg-designColor text-black uppercase px-4 py-[1px] rounded-md">OnSite:</span>
             <span>Available</span>
           </li>
-          <li className="aboutRightLi">
-            <span className="aboutRightLiSpan">Remote:</span>
+          <li className=" text-zinc-400 text-base font-normal flex justify-between items-center border-b-[1px] border-gray-800 py-2">
+            <span className=" bg-designColor text-black uppercase px-4 py-[1px] rounded-md">Remote:</span>
             <span>Available</span>
           </li>
         </ul>
