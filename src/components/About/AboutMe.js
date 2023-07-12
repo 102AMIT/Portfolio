@@ -11,8 +11,8 @@ const AboutMe = () => {
         <p className="text-base leading-6 py-4 text-left">
           A MERN stack developer, passionate about creating innovative and user
           friendly web applications. I thrive on tackling challenges and finding
-          creative solutions to complex problems. With a strong foundation in
-          JavaScript, React, Node.js, and MongoDB. I love to talk with you about
+          creative solutions to complex problems with a strong foundation in
+          JavaScript, React, Node.js, Express.js and MongoDB. I love to talk with you about
           our unique.
         </p>
       </div>

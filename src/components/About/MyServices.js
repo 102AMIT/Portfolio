@@ -1,7 +1,6 @@
 import React from "react";
 import ServicesCard from "./ServicesCard";
 import { FaAppStoreIos, FaReact } from "react-icons/fa";
-import { AiTwotoneAppstore } from "react-icons/ai";
 import { SiAntdesign } from "react-icons/si";
 import { BiLogoNodejs } from "react-icons/bi";
 

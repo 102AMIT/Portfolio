@@ -10,7 +10,7 @@ const Skills = () => {
   return (
     <div className="w-full grid grid-cols-9 px-6">
       <div className="col-span-4">
-        <ResumeTitle title="Design" icon={<SiArtstation />} />
+        <ResumeTitle title="Development" icon={<SiArtstation />} />
         <div className="py-4">
           {/* Web Development */}
           <div className="py-3 border-b-[1px] border-zinc-800">
@@ -98,7 +98,7 @@ const Skills = () => {
           </div>
           <div className="py-3 border-b-[1px] border-zinc-800">
             <p className="text-base text-textColor -mb-1.5">
-                React JS
+                React JS , Redux
             </p>
             <span className="w-full bg-zinc-600 h-1 inline-flex relative">
               <span className="w-[80%] h-full absolute top-0 left-0 bg-designColor"></span>
@@ -119,6 +119,24 @@ const Skills = () => {
             </span>
           </div>
           <div className="py-3 border-b-[1px] border-zinc-800">
+            <p className="text-base text-textColor -mb-1.5">Jest</p>
+            <span className="w-full bg-zinc-600 h-1 inline-flex relative">
+              <span className="w-[90%] h-full absolute top-0 left-0 bg-designColor"></span>
+            </span>
+          </div>
+          <div className="py-3 border-b-[1px] border-zinc-800">
+            <p className="text-base text-textColor -mb-1.5">Redis</p>
+            <span className="w-full bg-zinc-600 h-1 inline-flex relative">
+              <span className="w-[90%] h-full absolute top-0 left-0 bg-designColor"></span>
+            </span>
+          </div>
+          <div className="py-3 border-b-[1px] border-zinc-800">
+            <p className="text-base text-textColor -mb-1.5">Docker</p>
+            <span className="w-full bg-zinc-600 h-1 inline-flex relative">
+              <span className="w-[90%] h-full absolute top-0 left-0 bg-designColor"></span>
+            </span>
+          </div>
+          <div className="py-3 border-b-[1px] border-zinc-800">
             <p className="text-base text-textColor -mb-1.5">MongoDB</p>
             <span className="w-full bg-zinc-600 h-1 inline-flex relative">
               <span className="w-[90%] h-full absolute top-0 left-0 bg-designColor"></span>
@@ -126,6 +144,12 @@ const Skills = () => {
           </div>
           <div className="py-3 border-b-[1px] border-zinc-800">
             <p className="text-base text-textColor -mb-1.5">Git</p>
+            <span className="w-full bg-zinc-600 h-1 inline-flex relative">
+              <span className="w-[95%] h-full absolute top-0 left-0 bg-designColor"></span>
+            </span>
+          </div>
+          <div className="py-3 border-b-[1px] border-zinc-800">
+            <p className="text-base text-textColor -mb-1.5">Tailwind Css/ BootStrap</p>
             <span className="w-full bg-zinc-600 h-1 inline-flex relative">
               <span className="w-[95%] h-full absolute top-0 left-0 bg-designColor"></span>
             </span>
@@ -160,7 +184,12 @@ const Skills = () => {
         </div>
         <div className="py-3 border-b-[1px] border-zinc-800 flex"><span className="text-designColor pr-4">{<GiCheckMark />}</span>
           <p className="text-base text-textColor -mb-1.5">Scalability</p>
-          
+        </div>
+        <div className="py-3 border-b-[1px] border-zinc-800 flex"><span className="text-designColor pr-4">{<GiCheckMark />}</span>
+          <p className="text-base text-textColor -mb-1.5">Unit Test Cases For function</p>
+        </div>
+        <div className="py-3 border-b-[1px] border-zinc-800 flex"><span className="text-designColor pr-4">{<GiCheckMark />}</span>
+          <p className="text-base text-textColor -mb-1.5">Unit Test Cases For Api</p>
         </div>
       </div>
     </div>

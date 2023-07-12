@@ -1,8 +1,15 @@
 import React from 'react'
 
-const ProjectCard = () => {
+const ProjectCard = ({image,title,category}) => {
   return (
-    <div>ProjectCard</div>
+    <div className='w-full py-8 flex flex-col justify-center items-center border-b-[1px] border-b-zinc-800'>
+      <div className='w-full h-full mb-3 overflow-hidden relative cursor-pointer group'>
+        <img src={image} alt="cardImage" className='rounded-2xl h-full'/>
+        <div className='w-full h-full absolute top-0 left-0 hover:bg-gradient-to-t from-green-600 via-green-600 to-green-200 opacity-20 rounded-2xl'></div>
+      </div>
+        <h3 className='font-titleFont text-lg font-semibold text-[#ccc]'>{title}</h3>
+        <p className='text-base text-gray-400 -mt-1'>{category}</p>
+    </div>
   )
 }
 
