@@ -5,7 +5,7 @@ import { FiMail, FiSend } from "react-icons/fi";
 import { TiWeatherStormy } from "react-icons/ti";
 import { SiLeetcode } from "react-icons/si";
 
-import CV from "../../assets/Amit_Kumar Thakur.pdf";
+import CV from "../../assets/Amit_Kumar_Thakur_Resume.pdf";
 import { profileImage } from "../../assets";
 const Left = () => {
   const [text] = useTypewriter({

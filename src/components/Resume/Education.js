@@ -10,7 +10,14 @@ const Education = () => {
       <div className="col-span-4 ">
         <ResumeTitle title="Experience" icon={<MdWork />} />
         <ResumeCard
-          badge="Feb 2023-Present"
+          badge="July 2023- Present"
+          title="Full Stack Developer"
+          subtitle="Zorrro Services PVT.LTD"
+          des="Implemented bi-directional data flow using Socket.IO for real-time operations, assuming full responsibility for
+managing and optimizing scalable systems."
+        />
+        <ResumeCard
+          badge="Feb 2023-Jun 2023"
           title="Full Stack Developer"
           subtitle="AdmitKard"
           des="Experience working with microservices architecture, which
@@ -18,7 +25,7 @@ allows for greater scalability and flexibility. Integrated authentication servic
 accommodation service."
         />
         <ResumeCard
-          badge="Sep 2022-Jan 2023"
+          badge="Sep 2021-Jan 2023"
           title="Teaching Assistance"
           subtitle="Coding Ninjas"
           des="Conducted effective Node.js doubt sessions, assisting
@@ -39,7 +46,7 @@ And Rated 8.6/10 by students, among the top-rated tutors"
         />
         <ResumeCard
           badge="2015-2018"
-          title="Techno Engineering College"
+          title="Kingston Engineering College"
           subtitle=" Kolkata"
           des="Diploma In Engineering, CGPA:7.8"
         />

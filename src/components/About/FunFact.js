@@ -7,10 +7,10 @@ import FunCart from './FunCart'
 const FunFact = () => {
   return (
     <div className='px-0 grid grid-cols-4 pb-10'>
-        <FunCart icon={<BsTrophyFill />} des="200+ DSA Problem Solve"/>
+        <FunCart icon={<BsTrophyFill />} des="300+ DSA Problem Solve"/>
         <FunCart icon={<SiAntdesign />} des="30+ Finished Projects"/>
         <FunCart icon={<SiCodingninjas />} des="EX-Teaching Assistant"/>
-        <FunCart icon={<FaCode />} des="400 hours of coding"/>
+        <FunCart icon={<FaCode />} des="800 hours of coding"/>
 
     </div>
   )
